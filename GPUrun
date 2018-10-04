@@ -1,0 +1,19 @@
+sudo ssh -i Deep-learning_large.pem ubuntu@ec2-54-147-161-126.compute-1.amazonaws.com
+
+
+sudo scp -i Deep-learning.pem /home/affine/Deep_Learning/TrafficManagement/object_detection_tutorial_Webcam_1.ipynb ubuntu@ec2-54-147-161-126.compute-1.amazonaws.com:~/Karthik/TrafficManagement/
+
+# Fetch a file from GPU
+sudo scp -i Deep-learning.pem ubuntu@ec2-54-147-161-126.compute-1.amazonaws.com:~/Karthik/TrafficManagement/cocoapi/PythonAPI/models/research/object_detection/Data/testVideo_out2.mp4 /home/affine/Deep_Learning/TrafficManagement/
+
+nohup python3 fit_predict.py train.csv test.csv crawl-300d-2M.vec >outfile.txt &
+
+jupyter-lab --ip=0.0.0.0 --no-browser
+
+tar -xvzf
+
+find / -xdev 2>/dev/null -name 
+
+
+
+    

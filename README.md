@@ -1,3 +1,3 @@
-# Deep-Learning-Experiments-and-Misc
+# Deep-Learning-Exercises-and-Misc
 
-Experiments on deep learning ideas
+Repo for all the deep learning exercises and tutorials
